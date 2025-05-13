@@ -1,4 +1,19 @@
-<pre> ```bash .=========================================================================. | | | (`-') (`-') _ (`-') (`-') | | ( OO).-> .-> <-.(OO ) \-.(OO ) .-> (OO )_.-> | | / '._ (`-')----. ,------,) _.' \(`-')----. (_| \_)--. | | |'--...__)( OO).-. '| /`. '(_...--''( OO).-. '\ `.' / | | `--. .--'( _) | | || |_.' || |_.' |( _) | | | \ .') | | | | \| |)| || . .'| .___.' \| |)| | .' \ | | | | ' '-' '| |\ \ | | ' '-' '/ .'. \ | | `--' `-----' `--' '--'`--' `-----'`--' '--' | | | | TOR POX - TOR PROXY & BALANCER INSTALLER | | | '=========================================================================' ``` </pre>
+```bash
+.=========================================================================.
+|                                                                         |
+|    (`-')                   (`-')  _  (`-')           (`-')             |
+|    ( OO).->       .->   <-.(OO )  \-.(OO )     .->   (OO )_.->         |
+|    /    '._  (`-')----. ,------,) _.'    \(`-')----. (_| \_)--.        |
+|    |'--...__)( OO).-.  '|   /`. '(_...--''( OO).-.  '\  `.'  /         |
+|    `--.  .--'( _) | |  ||  |_.' ||  |_.' |( _) | |  | \    .')         |
+|       |  |    \|  |)|  ||  .   .'|  .___.' \|  |)|  | .'    \          |
+|       |  |     '  '-'  '|  |\  \ |  |       '  '-'  '/  .'.  \         |
+|       `--'      `-----' `--' '--'`--'        `-----'`--'   '--'        |
+|                                                                         |
+|               TOR POX - TOR PROXY & BALANCER INSTALLER                  |
+|                                                                         |
+'========================================================================='
+```
 
 
 Automated Tor Proxy, OnionBalance, and WireGuard Deployment Script
@@ -41,17 +56,17 @@ Root or sudo privileges
 Usage
 1. Download the script:
 
-'''bash
+```bash
 wget https://yourserver.com/tor_pox.sh
 chmod +x tor_pox.sh
-'''
+```
 
 3. Run the installer:
-'''bash
+```bash
 ./tor_pox.sh
-''''
+```
 5. Follow the menu prompts:
-''''javascript
+```javascript
 
 1) Master Proxy (OnionBalance)
 2) Slave Proxy
@@ -61,16 +76,16 @@ chmod +x tor_pox.sh
 6) Bridge Install
 7) Exit Node Install
 8) Exit
-''''
+```
 
 If you select a WireGuard option, you will be prompted to enter:
 
-''''console
+```console
 
 WireGuard Peer Public Key
 
 WireGuard Server IP Address
-''''
+```
 
 Example Setup Scenarios
 Scenario	Use Options
