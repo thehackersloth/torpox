@@ -57,13 +57,13 @@ Usage
 1. Download the script:
 
 ```bash
-wget https://yourserver.com/tor_pox.sh
+wget https://github.com/thehackersloth/torpox/blob/main/torpox.sh
 chmod +x tor_pox.sh
 ```
 
 3. Run the installer:
 ```bash
-./tor_pox.sh
+./torpox.sh
 ```
 5. Follow the menu prompts:
 ```javascript
